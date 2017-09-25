@@ -1,0 +1,104 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+    background-image:url('../img/flor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#000066;
+}
+
+
+
+#titulo{
+    color:white;
+    font-weight: bolt;
+    font-size:40px;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+label{
+    width:200px;
+    display: inline-block;
+}
+
+/*Headrer*/
+header{
+    background-image:url('../img/flor.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#FF0099;
+}
+
+header h1{
+    padding-top: 80px;
+}
+
+
+div{
+    width: 20px;
+}
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+
+nav ul li{
+    display:inline;
+    padding-right: 10px;
+}
+
+
+nav{
+    background-color: #33FF66;
+}
+
+nav ul li a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:white;
+    padding: 10px;
+}
+
+
+
+
+section h1{
+    text-align: center;
+}
+
+section img{
+    max-width:95px;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    background-color: #FF33FF;
+    color: #FF0066;
+    padding: 2px;
+}
+footer a:hover{
+    color:#FF0066;
+    text-decoration: none;
+}
+
+.love{
+    color:#009900;
+}
+/*a{
+    background-color: colocar cor 
+    padding: x px.
+    display: inline block (junta altura e largura do box*/
+    
+
+    /*p{
+        background-color: colocar cor
+padding margem interna que voce dá*/

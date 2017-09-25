@@ -1,0 +1,169 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+    background-image: url('../img/flor.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table, th, td{
+    background-color: pink;
+    border:1px dashed #993399;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#titulo{
+    color:#660099;
+    font-weight: bolt;
+    font-size:40px;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+/*Header*/
+header{
+    background-image:url('../img/flor.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#990066;
+    /*position: relative; dá limites para o absolute */
+
+}
+
+header h1{
+    padding-top: 15px;
+}
+
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+
+nav ul li{
+    display:inline;
+    padding-right: 10px;
+}
+
+
+nav{
+    background-color: #33FF66;
+    padding: 2px 0;
+    /*position: absolute;
+    width: 100%;
+    bottom: 0;
+    top:0;
+    bottom;
+    left;
+    right;*/
+}
+
+nav ul li a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:#330066;
+    padding: 10px;
+}
+
+/*Tabela*/
+.linhaAmarela{
+    color:	#FFFF00;
+}
+
+.linhaVerde{
+    color: #00FF00;
+}
+
+.linhaAzul{
+    color:#000066;
+}
+
+.linhaRosa{
+    color:#FF99CC;
+}
+
+/*resumo*/
+section{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#FF0099;
+    color:#000000;
+    max-width:100%;
+    max-height: 100%;
+    width: 500px;
+    height: 300px;
+    padding:1px 0 1px 1px;
+    border-style:solid;
+    box-sizing: border-box;
+    
+    border:1px solid #330033;
+    /*solid*/
+    /*dashed*/
+    /*dotted*/
+    /*double*/
+    /*groove*/
+    /*outset*/
+    /*inset*/
+    /*none*/
+    border-radius: 10px;
+    border-width: 5px;
+    border-color:#330033;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+section h3{
+    text-align: center;
+}
+
+section img{
+    max-width:95px;
+    border-radius:10px;
+}
+/*Suporte
+#suporte{
+    background-color:#FF0099;
+    color:#000000;
+      max-width:100%;
+    max-height: 100%;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    
+    border:5px dashed #330033;
+    /*solid*/
+    /*dashed*/
+    /*dotted*/
+    /*double*/
+    /*groove*/
+    /*outset*/
+    /*inset*/
+    /*none*/
+   /* border-radius: 50px;
+    border-width: 20px;
+    border-color:#330033;
+    border-radius: 10%;
+    box-sizing: border-box;
+}*/
+footer{
+    text-align:center;
+    background-color: #FF33FF;
+    color: #FF0066;
+    padding: 2px;
+}
+footer a:hover{
+    color:#FF0066;
+    text-decoration: none;
+}
+
+.love{
+    color:#009900;
+}
+
